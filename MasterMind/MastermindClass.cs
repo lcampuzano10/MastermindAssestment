@@ -58,6 +58,12 @@
 
             for (int i = 0; i < 4; i++)
             {
+                if (guess[i] < 1 || guess[i] > 6)
+                {
+                    Console.WriteLine("Please enter digits between 1 and 6.");
+                    break;
+                }
+
                 if (guess[i] == secret[i])
                 {
                     plusCount++;
