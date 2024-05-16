@@ -1,3 +1,3 @@
 # MastermindAssestment
 
-This repository has beenc reated for an code assesment.
+This repository has been created for an code assesment.
